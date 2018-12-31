@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Sounds</title>
 </head>
 <body>
 
 <div class="container">
     <div class=" keys row">
-        <div class="key col big">
+        <div data-key="65" class="key col">
             <div class="row">
                 A
             </div>
@@ -21,7 +21,7 @@
                 drum1
             </span>
         </div>
-        <div class="key col">
+        <div data-key="83" class="key col">
             <div class="row">
                 S
             </div>
@@ -29,7 +29,7 @@
                 drum2
             </span>
         </div>
-        <div class="key col">
+        <div data-key="68" class="key col">
             <div class="row">
                 D
             </div>
@@ -37,7 +37,7 @@
                 drum3
             </span>
         </div>
-        <div class="key col">
+        <div data-key="70" class="key col">
             <div class="row">
                 F
             </div>
@@ -45,33 +45,33 @@
                 drum4
             </span>
         </div>
-        <div class="key col">
+        <div data-key="74" class="key col">
             <div class="row">
-                H
+                J
             </div>
             <span class="row">
                 drum5
             </span>
         </div>
-        <div class="key col">
+        <div data-key="75" class="key col">
             <div class="row">
-                J
+                K
             </div>
             <span class="row">
                 drum6
             </span>
         </div>
-        <div class="key col">
+        <div data-key="76" class="key col">
             <div class="row">
-                K
+                L
             </div>
             <span class="row">
                 drum7
             </span>
         </div>
-        <div class="key col">
+        <div data-key="186" class="key col">
             <div class="row">
-                L
+               <b>;</b>
             </div>
             <span class="row">
                 drum8
@@ -81,6 +81,17 @@
     </div>
 </div>
     
-    
+
+<audio data-key="65" src="./sounds/boom.wav"></audio>
+<audio data-key="83" src="./sounds/hihat.wav"></audio>
+<audio data-key="68" src="./sounds/kick.wav"></audio>
+<audio data-key="70" src="./sounds/openhat.wav"></audio>
+<audio data-key="74" src="./sounds/ride.wav"></audio>
+<audio data-key="75" src="./sounds/snare.wav"></audio>
+<audio data-key="76" src="./sounds/tink.wav"></audio>
+<audio data-key="186" src="./sounds/tom.wav"></audio>
+
+<script src="./index.js"></script>
+
 </body>
 </html>
