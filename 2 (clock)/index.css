@@ -1,0 +1,66 @@
+
+
+.canvas{   
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+   
+}
+
+.clock{
+    display:inline-flex;
+    height:25vw;
+    width:25vw;
+    background-color:turquoise;
+    border-style:solid;
+    border-color:green;
+    border-width: 6px;
+    border-radius:50%;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.hour{
+    position: absolute; 
+    background-color:black;
+    margin-left:6vw;
+    height:6px;
+    width:12vw;
+    transform-origin: 0%;
+    transform: rotate(0deg);
+    transition: all 0.2s;
+    
+}
+
+.minute{
+    position: absolute;
+    background-color:black;
+    margin-left:6vw;
+    height:6px;
+    width:12vw;
+    transform-origin: 0%;
+    transform: rotate(0deg);
+    transition: all 0.2s;
+
+    
+}
+
+.second{
+    position: absolute;
+    background-color:black;
+    z-index: 10;
+    margin-left:6vw;
+    height:6px;
+    width:12vw;
+    transform-origin: 0%;
+    transform: rotate(0deg);
+    transition: all 0.2s;
+    transition-timing-function: cubic-bezier(0, 2, 0, 1);
+
+    
+}
+
+
