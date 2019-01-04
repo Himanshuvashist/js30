@@ -1,0 +1,40 @@
+:root{
+    --color : skyblue;
+    --blur : 10px;
+    --moove : 0px;
+}
+
+
+body{
+    background-color: white;
+}
+
+label{
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+span{
+    color: var(--color);
+    font-weight: 1000;
+}
+
+.canvas{
+    margin-top: 4vw;
+    background-color: var(--color);
+    text-align: center;
+    filter : blur(var(--blur));
+}
+
+.cl-div{
+    text-align: center;
+}
+
+.input{
+    margin-top:2vw;
+    text-align: center;
+}
+
+.image{
+    margin-left: var(--move);
+}
